@@ -28,4 +28,17 @@ public class FlowControl {
 
         return 2;
     }
+
+    public static void whileDemo() {
+        int num = 0;
+        while (num <= 10) {
+            if ((num % 2) == 0) {
+                num++;
+                continue;
+            } else {
+                System.out.println(num);
+                num++;
+            }
+        }
+    }
 }
