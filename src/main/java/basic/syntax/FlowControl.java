@@ -54,6 +54,14 @@ public class FlowControl {
         int num = 10;
         do {
             System.out.println(num--);
-        }while (num >= 0);
+        } while (num >= 0);
+    }
+
+    public static void forEachDemo() {
+        int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+        for (int item : array) {
+            System.out.println("Item: " + item);
+        }
     }
 }
