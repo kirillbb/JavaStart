@@ -49,4 +49,11 @@ public class FlowControl {
             }
         }
     }
+
+    public static void doWhileDemo() {
+        int num = 10;
+        do {
+            System.out.println(num--);
+        }while (num >= 0);
+    }
 }
