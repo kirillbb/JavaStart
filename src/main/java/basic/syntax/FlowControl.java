@@ -8,10 +8,11 @@ public class FlowControl {
         if (var){
             System.out.println(1);
         }
-        else{
+        else if (!var){
             System.out.println(0);
         }
+        else {
+            System.out.println();
+        }
     }
-
-    
 }
